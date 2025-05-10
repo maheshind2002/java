@@ -17,17 +17,18 @@ public class program4 {
         int count = 0;
         for (int i = 0; i < arrr.length; i++) {
             if (arrr[i] == x) {
-               // System.out.println(x + " is at the " + i + " position");
-               count++;
+                // System.out.println(x + " is at the " + i + " position");
+                count++;
                 break;
             }
 
         }
-        if(count>0){
+        if (count > 0) {
             System.out.println(x + " is found");
         }
-        else{
-        System.out.println("Element not found");
+
+        else {
+            System.out.println(x + " Element not found");
         }
     }
 
