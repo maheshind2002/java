@@ -1,38 +1,39 @@
 import java.util.Scanner;
 
-class WithdralException extends Exception{
-    WithdralException(String msg){
+class WithdralException extends Exception {
+    WithdralException(String msg) {
         super(msg);
     }
-    WithdralException(){
+
+    WithdralException() {
 
     }
 }
-class Account{
-    void Withdral(int amount,int balance)throws WithdralException{
-        if(amount>balance){
+
+class Account {
+    void Withdral(int amount, int balance) throws WithdralException {
+        if (amount > balance) {
             throw new WithdralException("Insufficient Funds");
-        }
-        else{
+        } else {
             System.out.println("Your Transaction is been Processed \n Please wait...!");
 
         }
     }
 }
+
 public class Exceptiondemo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Amount");
         int amount = sc.nextInt();
-         System.out.println("Enter Balance");
+        System.out.println("Enter Balance");
         int balance = sc.nextInt();
         Account ac = new Account();
         try {
-            ac.Withdral(amount,balance);
+            ac.Withdral(amount, balance);
         } catch (WithdralException e) {
             System.out.println(e.getMessage());
         }
-        
-        
+
     }
 }
