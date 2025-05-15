@@ -1,4 +1,6 @@
 package Thread;
+
+// thread is created using the Thread class
 class ThreadDemo extends Thread{
     public void run(){
         System.out.println("IN Child Thread");
@@ -11,8 +13,6 @@ class ThreadDemo extends Thread{
         } catch (InterruptedException e) {
             System.out.println(e.getMessage());
         }
-
-       
 
     }
 } 
