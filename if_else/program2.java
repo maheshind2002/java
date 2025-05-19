@@ -1,5 +1,5 @@
 package if_else;
-
+// check number is even or odd
 class EvenOdd{
 	public static void main(String[] args){
 		int x = 65;
