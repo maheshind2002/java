@@ -1,5 +1,5 @@
 package if_else;
-
+// checking the perticular number is divisible by 7 or not
 class Divideing{
 	public static void main (String[] args){
 		int num = 49;

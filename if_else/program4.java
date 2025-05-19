@@ -1,5 +1,5 @@
 package if_else;
-
+// checking the alphabet is it in lowercase or uppercase
 class CaseCheck{
 	public static void main(String[] args){
 
