@@ -1,5 +1,5 @@
 package if_else;
-
+// check no positive or negative
 class PositiveNumber{
 	public static void main(String[] args){
 
