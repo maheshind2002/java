@@ -1,5 +1,5 @@
 package if_else;
-
+// checking divisibility by 3 numbers
 class Divisible_8{
 	public static void main(String[] args){
 		int x = 100;
