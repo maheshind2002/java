@@ -1,5 +1,5 @@
 package if_else;
-
+// month of the year using if_else
 class Year{
 	public static void main(String[] args){
 		int x = 6;
