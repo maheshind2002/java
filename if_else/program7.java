@@ -1,5 +1,5 @@
 package if_else;
-
+ // finding the maximun no between two numbers
 class Maximun{
 	public static void main (String[] args){
 		int x = 98;
