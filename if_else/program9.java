@@ -1,5 +1,5 @@
 package if_else;
-
+// days of week problem
 class Week{
 	public static void main(String[] args){
 		int day = 5;
