@@ -1,5 +1,5 @@
 package if_else2;
-// c
+// checking the given character is consonent or vowel
 class Vowel{
 	public static void main(String[] args){
 		char ch=  'B';
