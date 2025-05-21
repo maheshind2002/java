@@ -1,5 +1,5 @@
 package if_else2;
-
+// checking the particular number is divisible by 6 or not (Even the float value is there)
 class Pro5{
 	public static void main(String[] args){
 		float a = 54.00f;
