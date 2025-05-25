@@ -1,4 +1,4 @@
-package for_loop2;
+package while_loop;
 //Write a Java program that counts the number of digits in a given integer.
 class Pro1{
 	public static void main(String[] args){

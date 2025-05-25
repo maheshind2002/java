@@ -1,4 +1,4 @@
-package for_loop2;
+package while_loop;
 // use of while loop print no from 1 to 9
 class Pro3{
 	 public static void main(String[] args){

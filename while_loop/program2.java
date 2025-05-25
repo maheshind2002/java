@@ -1,4 +1,4 @@
-package for_loop2;
+package while_loop;
 // Write a Java program to extract and process each digit of a given integer from right to left. 
 class Pro2{
 	public static void main(String[] args){
