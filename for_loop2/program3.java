@@ -1,5 +1,15 @@
 package for_loop2;
-
-public class program3 {
-    
+//Write a Java program that counts the number of digits in a given integer.
+class Pro1{
+	public static void main(String[] args){
+		int num = 987654321;
+		int count = 0;
+		while(num!=0){
+			count++;
+			num/=10;
+		}
+		System.out.println(num);
+		System.out.println(count);
+	}
 }
+
