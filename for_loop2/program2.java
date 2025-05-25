@@ -1,5 +1,13 @@
 package for_loop2;
-
-public class program2 {
-    
+// Write a Java program to extract and process each digit of a given integer from right to left. 
+class Pro2{
+	public static void main(String[] args){
+		int num=23456789;
+		for(;num!=0;num/=10){
+			int temp = num%10;
+			if(temp%2==0){
+				System.out.println(temp*temp +" ");
+			}
+		}
+	}
 }
