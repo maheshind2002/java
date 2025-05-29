@@ -1,5 +1,20 @@
 package while_loop2;
+ 
+// program to print only consonents 
+class Pro6 {
+    public static void main(String[] args) {
+        char ch = 'A';
 
-public class program6 {
-    
+        while (ch <= 'Z') {
+            if (ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') {
+
+            } else {
+
+                System.out.println(ch);
+            }
+            ch++;
+
+        }
+
+    }
 }
