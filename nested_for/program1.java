@@ -1,5 +1,5 @@
 package nested_for;
-
+// print * pattern in each row according to the input of row
 import java.util.*;
 class Demo{
 	public static void main(String[] args){
