@@ -1,5 +1,5 @@
 package nested_for;
-
+// print 1234 in each row according to the row no
 import java.util.*;
 class Pro_2{
 	public static void main(String[] args){
