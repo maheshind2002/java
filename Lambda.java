@@ -11,6 +11,7 @@
 // lambda function main aim is to reduce the line of code 
 // if the there is one line only in the lambda expresssion there no use of parenthesis allowed
 
+
  class Lambda {
     public static void main(String[] args) {
         // arguments are managed in the () 
