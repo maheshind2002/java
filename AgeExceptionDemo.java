@@ -14,8 +14,6 @@ class Age{
         else{
             System.out.println("Enterd Age is Good...!");
         }
-
-
     }
 }
 public class AgeExceptionDemo {
