@@ -1,7 +1,5 @@
 package operators;
 
-
-
 class Switchdemo1{
 	public static void main(String [] args){
 		char ch  = 'C';
