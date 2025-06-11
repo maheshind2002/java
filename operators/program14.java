@@ -1,10 +1,5 @@
 package operators;
 
-
-
-
-
-
 class Pro24{
 	public static void main(String [] args){
 		float a = 25.0f;
