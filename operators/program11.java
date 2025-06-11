@@ -1,6 +1,5 @@
 package operators;
 
-
 class Switchdemo2{
 	public static void main(String[] args){
 		int num = 50;
