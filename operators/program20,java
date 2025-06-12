@@ -6,7 +6,7 @@ class Pro20{
 			if(i%3==0  && i%5==0){
 				continue;
 			}
-			System.out.println(i);
+			 System.out.println(i);
 		}
 	}
 }
