@@ -8,6 +8,5 @@ class pro19{
 			}
 			System.out.println(i);
 		}
-
 	}
 }
