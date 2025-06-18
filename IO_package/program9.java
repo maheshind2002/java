@@ -4,6 +4,7 @@ import java.io.*;
 
 // Deserialization(Reading the data from the file is call deserialization)
 // Serializable interface should be implemented
+// transient is use in front of the variable when we dont have to put the vaule or print the deafault value
 
 class Employee implements Serializable{
     int empid ;
