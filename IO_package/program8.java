@@ -17,17 +17,19 @@ class Employee implements Serializable{
     Employee(){
         // deafault constructor
     }
-
+    public String toString(){
+        return "empid :" + empid + "\n"+ "empName :"+empName +"\n"+"empSalary :"+ empSalary;
+    }
 }
 public class program8 {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException,  ClassNotFoundException {
         FileOutputStream fos = new FileOutputStream("emp.txt");
         ObjectOutputStream oos = new ObjectOutputStream(fos);
         Employee emp = new Employee(101,"john",60000);
         oos.writeObject(emp);
         System.out.println("Object stored in file");
         oos.close();
-        fos.close();
+        fos.close();  
         
     }
 }
