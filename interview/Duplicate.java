@@ -1,3 +1,4 @@
+package interview;
 
 // removeing duplicate from sorted array in place without using extra space
 
