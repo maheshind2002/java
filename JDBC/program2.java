@@ -15,6 +15,8 @@ public class program2 {
             st.executeUpdate("insert into products values(222,'keyboard',850)");
             st.executeUpdate("insert into products values(333,'ups',2000)");
             System.out.println("inserted...!");
+            st.close();
+            con.close();
     }
     catch(Exception e){
         System.out.println(e);
