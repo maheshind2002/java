@@ -6,5 +6,6 @@ class Sum{
 			sum+=i;
 		}
 			System.out.println(sum);
+			
 	}
 }
