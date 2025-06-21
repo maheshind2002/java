@@ -7,5 +7,6 @@ class Product{
                         product*=i;
                 }
              System.out.println(product);
+             
         }
 }
