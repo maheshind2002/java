@@ -6,7 +6,6 @@ class Product{
                 for(int i = 1;i<=10;i++){
                         product*=i;
                 }
-             System.out.println(product);
-             
+             System.out.println(product);   
         }
 }
