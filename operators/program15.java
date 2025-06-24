@@ -10,6 +10,5 @@ class Pro15{
 			i++;
 		}
 		System.out.println();
-		
 	}
 }
