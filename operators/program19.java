@@ -6,8 +6,7 @@ class pro19{
 			if(i%5==0 && i%7==0){
 				break;
 			}
-			System.out.println(i);
-			
+			System.out.println(i);	
 		}
 	}
 }
