@@ -22,9 +22,6 @@ class Switchdemo1{
 				break;
 			default :
 				System.out.println("Default case");
-
-				
-				
 		}
 	}
 }
